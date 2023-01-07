@@ -1,0 +1,154 @@
+html, body {
+    
+    height: 100%;
+
+  }
+  body {
+    background: #474444;
+    height: 100%;
+    
+  }
+  img {
+    max-width: 100%;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .white-label {
+    float: left;
+    background: #33373B;
+    max-width: 210px;
+    padding: 10px;
+    min-height: 65px;
+    background: #a2a2a2;
+    width: 100%;
+    max-height: 44px;
+  }
+  .white-label img {
+    max-height: 43px;
+  }
+  .header-nav {
+    min-height: 64px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #79858d;
+  }
+
+
+  .nav-mail .font-icon i:after {
+    background: #2ECC71;
+  }
+  div.user-image {
+    padding: 9px 5px;
+    margin: 0 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  .nav-profile {
+    background: #33373B;
+  }
+  
+  .nav-chat i:after {
+    display: none;
+  }
+  #sidebar {
+    overflow: hidden;
+    width: 210px;
+    height: 718px;
+    float: left;
+    background: #2A2D33;
+  }
+  #sidebar-nav {
+    width: 106%;
+    height: calc(100% - 95px);
+    padding: 0;
+    background: #2A2D33;
+    border-right: 1px solid #E0E0E0;
+    overflow-y: scroll;
+  }
+  #sidebar-nav h2 {
+    color: #60636B;
+    float: left;
+    width: 100%;
+    font-size: .8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 0 2px 20px;
+    border-top: 1px solid #4D4C4C;
+    box-sizing: border-box;
+    margin: 10px 0;
+  }
+  
+  #sidebar-nav ul li a {
+    color: #C2C2C2;
+    font-size: .95em;
+    padding: 15px 20px;
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #sidebar-nav ul li:hover a {
+    background: #fff;
+    color: #333;
+  }
+  #sidebar-nav ul li.active a {
+    background: #fff;
+    color: #333;
+  }
+  #sidebar-nav ul li.active a i {
+    background: #fff;
+  }
+  #sidebar-nav i {
+    padding-right: 8px;
+    font-size: 1.3em;
+    color: #60636B;
+    width: 25px;
+    text-align: center;
+  }
+
+  ::-webkit-scrollbar {
+      width: 12px;
+  }
+/*  */
+  .profileview{
+    text-align: center;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+    left: 165px;
+    position: fixed;
+    transform: translateY();
+    
+}
+.profin{
+    background: transparent;
+    color: #E0E0E0;
+}
+/*  */
+.profileup{
+    text-align: center;
+    top: 5%;
+    height: 100%;
+    width: 100%;
+    left: 165px;
+    position: fixed;
+    transform: translateY();
+    
+}
+
+/* pp */
+.ppstyle{
+    border-radius: 100%;
+}

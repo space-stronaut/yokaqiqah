@@ -21,8 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     // $pakets = Paket::all();
     // $transaksis = Transaksi::where('status', '!=', 'selesai')->limit(5);
-    return view('welcome');
-})->middleware('auth');
+    $pakets = Paket::paginate(4);
+    return view('welcome', compact('pakets'));
+});
 
 Auth::routes();
 
